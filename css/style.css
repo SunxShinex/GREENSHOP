@@ -1,0 +1,64 @@
+.login{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #3d3d3d;
+}
+.register{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 80%;
+    color: #46a358;
+}
+.button{
+    margin:40px 100px;
+    width: 300px;
+    height: 45px;
+    background-color: #46a358;
+    color: #eaeaea;
+    border-radius: 5px;
+    outline: auto;
+    font-size: 16px;
+}
+.div1 {
+    border: solid 2px;
+    max-width: 500px; 
+    margin: auto;
+}
+.div2{
+    margin: 16px 157px;
+}
+.Text{
+    margin: 40px 100px;
+    text-align: center;
+    font-size: 17px;
+}
+form{
+    margin: 14px;
+}
+input{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width:300px;
+    height: 40px;
+}
+.div_form{
+    padding: 14px 100px;
+}
+.Text_or{
+    font-size: 17px;
+    text-align: center;
+}
+.div_a{
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    border: 1px solid #eaeaea;
+}
+.a{
+    padding: 20px 68px 11px 60px ;
+    text-decoration:none;
+    color:black;
+}

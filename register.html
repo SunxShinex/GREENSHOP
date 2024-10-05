@@ -4,62 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GREENSHOP</title>
-<style>
-    .login{
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 80%;
-        color: #3d3d3d;
-    }
-    .register{
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 80%;
-        color: #46a358;
-    }
-    .button{
-        margin:40px 100px;
-        width: 300px;
-        height: 45px;
-        background-color: #46a358;
-        color: #eaeaea;
-        border-radius: 5px;
-        outline: auto;
-        font-size: 16px;
-    }
-</style>
+<link rel ="stylesheet" href ="css/style.css">
 </head>
 <body>
-    <div style="border: solid 2px; max-width: 500px; height: 710px; ;margin: auto;">
-        <div style="margin: 16px 157px">
+    <div class="div1">
+        <div class ="div2">
             <p class="login">LOGIN <span> | <span class="register">REGISTER</span></span></p>
         </div> 
-        <p style="margin: 40px 100px;text-align: center; font-size: 17px;">Enter your email and password to register.</p>
+        <p class ="Text">Enter your email and password to register.</p>
 
-        <form action="" method="post" name="REGISTER" style="margin: 14px;">
-            <div style="padding: 14px 100px;">
-                    <input type="text" name="username" placeholder="Username" style="border: 1px solid #eaeaea; border-radius: 5px; width:300px; height: 40px; ">
+        <form action="" method="post" name="REGISTER">
+            <div class="div_form">
+                    <input type="text" name="username" placeholder="Username">
             </div>
 
-            <div style="padding: 14px 100px;">
-                <input type="email" name="email" placeholder="Enter your email address" style="border: 1px solid #eaeaea; border-radius: 5px; width:300px; height: 40px; ">
+            <div class="div_form">
+                <input type="email" name="email" placeholder="Enter your email address">
             </div>
-            <div style="padding: 14px 100px;">
-                <input type="password" name="password" placeholder="Password" style="border: 1px solid #eaeaea; border-radius: 5px; width:300px; height: 40px; ">
+            <div class="div_form">
+                <input type="password" name="password" placeholder="Password">
             </div>
-            <div style="padding: 14px 100px;">
-                <input type="password" name="password" placeholder="Confirm your password" style="border: 1px solid #eaeaea; border-radius: 5px; width:300px; height: 40px; ">
+            <div class="div_form">
+                <input type="password" name="password" placeholder="Confirm your password">
             </div>
             <button type="submit" class="button">REGISTER</button> 
         </form>
-    <p style="font-size: 17px; text-align: center;">Or register with</p>
-    <div style="width: 300px; height: 40px; margin: auto; border: 1px solid #eaeaea;">
-        <img src="images/Group.svg"><a href="#" style="padding: 20px 68px 11px 60px ; text-decoration:none; color:black;">Continue with Google</a>
+    <p class="Text_or">Or register with</p>
+    <div class="div_a">
+        <img src="images/Group.svg"><a href="#" class="a">Continue with Google</a>
     </div>
-    <div style="width: 300px; height: 50px; margin: auto; border: 1px solid #eaeaea;">
-        <img src="images/facebook 1.svg"><a href="#" style="padding: 20px 68px 11px 60px ; text-decoration:none; color:black;">Contiue with Facebook</a>
+    <div class="div_a">
+        <img src="images/facebook 1.svg"><a href="#"  class="a">Contiue with Facebook</a>
     </div>
 </body>
 </html>
