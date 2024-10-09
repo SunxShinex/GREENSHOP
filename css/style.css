@@ -1,64 +1,128 @@
-.login{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 80%;
-    color: #3d3d3d;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.register{
-    font-family: var(--font-family);
+header{
+    padding-top: 30px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+}
+header nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+a{
+    display: inline-block;
+}
+header nav a{
+        font-family: "Cera Pro", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #3d3d3d;
+        text-decoration: none;
+}
+header .login{
+    font-family: "Cera Pro", sans-serif;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 80%;
+    font-size: 16px;
+    color: #fff;
+    padding: 7px 17px;
+    background: #46a358;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: 0.4s;
+    margin-bottom: 18px;
+}
+header .login:hover{
+    background-color: rgba(41, 153, 56, 0.699);
+}
+header .login:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/Logout.svg");
+    margin-right: 4px;
+}
+header nav li::after{
+    display: block;
+    width: 0;
+    content: "";
+    background-color:#46a358 ;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+header nav li:hover::after{
+    width: 100%;
+}
+header .logo{
+    margin-bottom: 12px;
+}
+main .container{
+    margin-top: 12px;
+    padding-top: 68px;
+    padding-left: 40px;
+    display: flex;
+  width: 557px;
+}
+main article .Welcome{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+line-height: 114%;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #3d3d3d;
+}
+main article h1{
+    font-family: var(--font-family);
+font-weight: 900;
+font-size: 61px;
+line-height: 100%;
+text-transform: uppercase;
+color: #3d3d3d;
+}
+main article h1 span{
     color: #46a358;
 }
-.button{
-    margin:40px 100px;
-    width: 300px;
-    height: 45px;
+main article p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+color: #727272;
+}
+main article a{
+    margin-top: 44px;
+    text-decoration: none;
     background-color: #46a358;
-    color: #eaeaea;
-    border-radius: 5px;
-    outline: auto;
+    font-family: var(--font-family);
+    font-weight: 700;
     font-size: 16px;
+    line-height: 125%;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 6px;
+    padding: 10px 27px;;
+    align-items: center;
+    transition: 0.4s;
 }
-.div1 {
-    border: solid 2px;
-    max-width: 500px; 
-    margin: auto;
+main article a:hover{
+    background-color:  rgba(41, 153, 56, 0.699);
 }
-.div2{
-    margin: 16px 157px;
-}
-.Text{
-    margin: 40px 100px;
-    text-align: center;
-    font-size: 17px;
-}
-form{
-    margin: 14px;
-}
-input{
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width:300px;
-    height: 40px;
-}
-.div_form{
-    padding: 14px 100px;
-}
-.Text_or{
-    font-size: 17px;
-    text-align: center;
-}
-.div_a{
-    width: 300px;
-    height: 40px;
-    margin: auto;
-    border: 1px solid #eaeaea;
-}
-.a{
-    padding: 20px 68px 11px 60px ;
-    text-decoration:none;
-    color:black;
+main img{
+    display: flex;
 }
