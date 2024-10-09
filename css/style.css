@@ -71,16 +71,18 @@ header nav li:hover::after{
 header .logo{
     margin-bottom: 12px;
 }
-main .container{
+main .under_header{
     margin-top: 12px;
     padding-top: 68px;
     padding-left: 40px;
+}
+main .container{
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
 }
-main section article{
+main section .article_text{
     max-width: 557px;
 }
 main article .Welcome{
@@ -92,7 +94,7 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 color: #3d3d3d;
 }
-main article h1{
+main article .Big_text{
     font-family: var(--font-family);
 font-weight: 900;
 font-size: 61px;
@@ -100,18 +102,18 @@ line-height: 100%;
 text-transform: uppercase;
 color: #3d3d3d;
 }
-main article h1 span{
+main article .Planet{
     color: #46a358;
 }
-main article p{
+main article .Text_about{
     font-family: var(--font-family);
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 color: #727272;
+margin-bottom: 44px;
 }
-main article a{
-    margin-top: 44px;
+main article .Shop_now{
     text-decoration: none;
     background-color: #46a358;
     font-family: var(--font-family);
@@ -128,7 +130,7 @@ main article a{
 main article a:hover{
     background-color:  rgba(41, 153, 56, 0.699);
 }
-main section img{
+main section .PLants{
     margin: auto;
 }
 
