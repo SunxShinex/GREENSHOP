@@ -75,6 +75,7 @@ main .under_header{
     margin-top: 12px;
     padding-top: 68px;
     padding-left: 40px;
+    margin-bottom: 44px;
 }
 main .container{
     display: flex;
@@ -127,75 +128,141 @@ main article .Shop_now{
     align-items: center;
     transition: 0.4s;
 }
-main article a:hover{
+main article .Shop_now:hover{
     background-color:  rgba(41, 153, 56, 0.699);
 }
 main section .PLants{
     margin: auto;
 }
 
-
-
-.login{
+.product{
+    background: #fff;
+}
+.product .container{
+    display: flex;
+    justify-content: space-between;
+}
+.product .left_side{
+    max-width: 310px;
+    background: #fbfbfb;
+}
+.product .right_side{
+    max-width: 840px;
+    width: 100%;
+}
+.product .product_sort{
+    display: flex;
+    justify-content: space-between;
+}
+.product .product_sort ul{
+    display: flex;
+}
+.main_product_items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main_product_items article{
+    width: 250px;
+}
+main .categor{
     font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 80%;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 89%;
     color: #3d3d3d;
+    margin-bottom: 7px;
 }
-.register{
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 80%;
-    color: #46a358;
-}
-.button{
-    margin:40px 100px;
-    width: 300px;
-    height: 45px;
-    background-color: #46a358;
-    color: #eaeaea;
-    border-radius: 5px;
-    outline: auto;
-    font-size: 16px;
-}
-.div1 {
-    border: solid 2px;
-    max-width: 500px; 
-    margin: auto;
-}
-.div2{
-    margin: 16px 157px;
-}
-.Text{
-    margin: 40px 100px;
-    text-align: center;
-    font-size: 17px;
-}
-form{
-    margin: 14px;
-}
-input{
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
-    width:300px;
-    height: 40px;
-}
-.div_form{
-    padding: 14px 100px;
-}
-.Text_or{
-    font-size: 17px;
-    text-align: center;
-}
-.Continue_with{
-    width: 300px;
-    height: auto;
-    margin: auto;
-    border: 1px solid #eaeaea;
+main .type_of_plants{
     text-decoration: none;
-    display: block;
-    background-color: #46a358;
-
+    list-style-type:  none;
+    margin-bottom:170px;
+}
+main .left_side ul li a{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 15px;
+line-height: 267%;
+color: #5f5e5e;;
+text-decoration: none;
+transition: 0.6s;
+}
+main .left_side ul li a:hover{
+color:#46a358;
+}
+main .right_side ul li a{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    text-decoration: none;
+    transition: 0.4s;
+}
+main .type_of_product{
+    list-style-type:  none;
+    margin-bottom:31px;
+    display: flex;
+    gap: 37px;
+}
+main .right_side ul li a::after{
+display: block;
+    width: 0;
+    content: "";
+    background-color:#46a358 ;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+main .right_side ul li a:hover::after{
+    width: 100%;
+}
+main .right_side .type_of_product a:hover{
+    color:#46a358;
+}
+.Short_by{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 107%;
+color: #3d3d3d;
+}
+.Product_cart{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+color: #3d3d3d;
+}
+.Product_price{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 89%;
+color: #46a358;
+}
+.Product_info{
+    margin-bottom: 70px;
+}
+.picture_4{
+width: 250px;
+height: 250px;
+}
+.page_number{
+    display: flex;
+    list-style-type: none;
+    float:right;
+    gap: 45px;
+}
+.page_number a{
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    padding: 10px 13px 9px 14px;
+    transition: 0.5s;
+}
+.page_number a:hover{
+ color:white;
+ background-color: #46a358;
 }
