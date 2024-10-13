@@ -186,6 +186,7 @@ line-height: 267%;
 color: #5f5e5e;;
 text-decoration: none;
 transition: 0.6s;
+margin-left: 30px;
 }
 main .left_side ul li a:hover{
 color:#46a358;
