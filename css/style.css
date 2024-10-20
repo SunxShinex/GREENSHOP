@@ -421,8 +421,11 @@ transition: 0.4s;
     background-image: url("../images/black_arrow.svg");
     width: 16px;
     height: 16px;
+    transition: 0.4s;
+}
+.blog_link:hover:after{
+    background-image: url("../images/Arrow_green.svg");
 }
 .blog_link:hover{
-    background-image: url("../images/Arrow_green.svg");
     color:#46a358;
 }
