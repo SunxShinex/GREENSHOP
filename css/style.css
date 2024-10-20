@@ -1,4 +1,17 @@
-*{
+@font-face {
+    font-family: 'cera_prolight';
+    src: url('../fonts/cerapro-light-webfont.eot');
+    src: url('../fonts/cerapro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cerapro-light-webfont.woff2') format('woff2'),
+         url('../fonts/cerapro-light-webfont.woff') format('woff'),
+         url('../fonts/cerapro-light-webfont.ttf') format('truetype'),
+         url('../fonts/cerapro-light-webfont.svg#cera_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+
+}*
+{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -25,14 +38,14 @@ a{
     display: inline-block;
 }
 header nav a{
-        font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_prolight';
         font-weight: 400;
         font-size: 16px;
         color: #3d3d3d;
         text-decoration: none;
 }
 header .login{
-    font-family: "Cera Pro", sans-serif;
+    font-family: 'cera_prolight';
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -87,7 +100,7 @@ main section .article_text{
     max-width: 557px;
 }
 main article .Welcome{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 500;
 font-size: 14px;
 line-height: 114%;
@@ -96,7 +109,7 @@ text-transform: uppercase;
 color: #3d3d3d;
 }
 main article .Big_text{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 900;
 font-size: 61px;
 line-height: 100%;
@@ -104,10 +117,11 @@ text-transform: uppercase;
 color: #3d3d3d;
 }
 main article .Planet{
+    font-family: 'cera_prolight';
     color: #46a358;
 }
 main article .Text_about{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
@@ -117,7 +131,7 @@ margin-bottom: 44px;
 main article .Shop_now{
     text-decoration: none;
     background-color: #46a358;
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -167,7 +181,7 @@ main section .PLants{
     width: 250px;
 }
 main .categor{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
     font-weight: 700;
     font-size: 25px;
     line-height: 89%;
@@ -180,7 +194,7 @@ main .type_of_plants{
     margin-bottom:170px;
 }
 main .left_side ul li a{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 700;
 font-size: 15px;
 line-height: 267%;
@@ -193,7 +207,7 @@ main .left_side ul li a:hover{
 color:#46a358;
 }
 main .right_side .type_of_product a{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
     font-weight: 400;
     font-size: 15px;
     line-height: 107%;
@@ -223,21 +237,21 @@ main .right_side .type_of_product a:hover{
     color:#46a358;
 }
 .Short_by{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 15px;
 line-height: 107%;
 color: #3d3d3d;
 }
 .Product_cart{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 16px;
 line-height: 100%;
 color: #3d3d3d;
 }
 .Product_price{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 700;
 font-size: 18px;
 line-height: 89%;
@@ -287,7 +301,7 @@ height: 250px;
     background: #fbfbfb;
 }
 .Summer_h4{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 900;
 font-size: 18px;
 line-height: 133%;
@@ -297,7 +311,7 @@ color: #3d3d3d;
 margin-bottom: 9px;
 }
 .text_abou_us{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
@@ -311,7 +325,7 @@ margin-bottom: 25px;
     background-color: #46a358;
     text-decoration: none;
     color:#fbfbfb;
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 500;
 font-size: 14px;
 line-height: 143%;
@@ -342,7 +356,7 @@ transition: 0.4s;
     margin-bottom: 35px;
 }
 .blog_post{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 700;
 font-size: 30px;
 line-height: 53%;
@@ -351,7 +365,7 @@ color: #3d3d3d;
 margin-bottom: 15px;
 }
 .blog_text{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
@@ -366,7 +380,7 @@ color: #727272;
     max-width: 268px;
 }
 .data_blog{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 500;
 font-size: 14px;
 line-height: 114%;
@@ -374,7 +388,7 @@ color: #46a358;
 margin-bottom: 4px;
 }
 .blog_title{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 700;
 font-size: 20px;
 line-height: 130%;
@@ -382,7 +396,7 @@ color: #3d3d3d;
 margin-bottom: 4px;
 }
 .blog_text_case{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 14px;
 line-height: 157%;
@@ -393,7 +407,7 @@ margin-bottom: 9px;
     background: #fbfbfb;
 }
 .blog_link{
-    font-family: var(--font-family);
+    font-family: 'cera_prolight';
 font-weight: 500;
 font-size: 14px;
 line-height: 114%;
@@ -407,12 +421,8 @@ transition: 0.4s;
     background-image: url("../images/black_arrow.svg");
     width: 16px;
     height: 16px;
-    display: inline-block;
 }
 .blog_link:hover{
+    background-image: url("../images/Arrow_green.svg");
     color:#46a358;
-}
-.blog_link::after:hover{
-    color:#46a358;
-    background-color: #46a358;
 }
