@@ -243,12 +243,88 @@ font-size: 15px;
 line-height: 107%;
 color: #3d3d3d;
 }
+
+.Short_by::before{
+    content: "";
+ background-image: url(../images/sorting.svg);
+ width: 20px;
+ height: 20px;
+}
+
+
 .Product_cart{
     font-family: 'cera_prolight';
 font-weight: 400;
 font-size: 16px;
 line-height: 100%;
 color: #3d3d3d;
+align-items: center;
+}
+.Product_reaction{
+    list-style-type: none;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    gap: 26px;
+    bottom: 50px;
+    left:50%;
+    transform:translate(-50%);
+}
+.Product_reaction .background_basket{
+    text-decoration: none;
+    background-image: url(../images/basket_black.svg);
+    width: 20px;
+    height: 20px;
+    transition: 0.4s;
+}
+.Product_reaction .background_like{
+    text-decoration: none;
+    background-image: url(../images/like_black.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.Product_reaction .background_glass{
+    text-decoration: none;
+    background-image: url(../images/glass_black.svg);
+    width: 20px;
+    height: 20px;
+    transition: 0.4s;
+}
+
+
+
+.Product_reaction .background_basket:hover{
+    background-image: url(../images/basket_green.svg);
+    width: 20px;
+    height: 20px;
+}
+.Product_reaction .background_like:hover{
+    background-image: url(../images/like_green.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+.Product_reaction .background_glass:hover{
+    background-image: url(../images/glass_green.svg);
+    width: 20px;
+    height: 20px;
+}
+
+
+.old_prise{
+    font-family: 'cera_prolight';
+font-weight: 400;
+font-size: 18px;
+line-height: 89%;
+color: #a5a5a5;
+text-decoration: line-through;
+display: inline-block;
+}
+.background{
+    margin-bottom: 12px;
+    padding-bottom: 25px;
 }
 .Product_price{
     font-family: 'cera_prolight';
@@ -257,14 +333,30 @@ font-size: 18px;
 line-height: 89%;
 color: #46a358;
 }
+.Product_info .sale{
+    position: absolute;
+    background-color: #46a358;
+    padding: 5px 10px;
+    color:#fff;
+    left: 0%;
+    top: 10px;
+}
 .Product_info{
     margin-bottom: 70px;
+    border-top: solid 1px transparent;
+    position: relative;
+    z-index: 1;
+    transition: 0.4s;
+}
+.Product_info:hover{
+    border-top: solid 1px #46a358;
 }
 .picture_4{
 width: 250px;
 height: 250px;
 }
 .page_number{
+    font-family: 'cera_prolight';
     display: flex;
     list-style-type: none;
     float:right;
@@ -275,7 +367,8 @@ height: 250px;
     border-radius: 4px;
     width: 35px;
     height: 35px;
-    padding: 10px 13px 9px 14px;
+    text-align: center;
+    padding-top: 7px;
     transition: 0.5s;
     text-decoration: none;
     color: #3d3d3d;
@@ -331,7 +424,7 @@ font-size: 14px;
 line-height: 143%;
 color: #fff;
 align-items: center;
-padding: 17px 47px;
+padding: 11px 28px;
 transition: 0.4s;
 }
 .button_find::after{
