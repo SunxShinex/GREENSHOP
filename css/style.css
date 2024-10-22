@@ -269,6 +269,8 @@ align-items: center;
     bottom: 50px;
     left:50%;
     transform:translate(-50%);
+    opacity: 0;
+    transition: 0.4s;
 }
 .Product_reaction .background_basket{
     text-decoration: none;
@@ -292,9 +294,9 @@ align-items: center;
     height: 20px;
     transition: 0.4s;
 }
-
-
-
+.Product_info:hover .Product_reaction{
+    opacity: 1;
+}
 .Product_reaction .background_basket:hover{
     background-image: url(../images/basket_green.svg);
     width: 20px;
