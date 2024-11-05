@@ -7,34 +7,43 @@
 <link rel ="stylesheet" href ="css/style.css">
 </head>
 <body>
-    <div class="div1">
-        <div class ="div2">
-            <p class="login">LOGIN <span> | <span class="register">REGISTER</span></span></p>
-        </div> 
-        <p class ="Text">Enter your email and password to register.</p>
-
-        <form action="" method="post" name="REGISTER">
-            <div class="div_form">
-                    <input type="text" name="username" placeholder="Username">
-            </div>
-
-            <div class="div_form">
-                <input type="email" name="email" placeholder="Enter your email address">
-            </div>
-            <div class="div_form">
-                <input type="password" name="password" placeholder="Password">
-            </div>
-            <div class="div_form">
-                <input type="password" name="password" placeholder="Confirm your password">
-            </div>
-            <button type="submit" class="button">REGISTER</button> 
-        </form>
-    <p class="Text_or">Or register with</p>
-    <div class="Continue_with">
-        <img src="images/Group.svg"><a href="#" class="a">Continue with Google</a>
-    </div>
-    <div class="Continue_with">
-        <img src="images/facebook 1.svg"><a href="#"  class="a">Contiue with Facebook</a>
+    <div class="register_block">
+        <div class="div1">
+            <div class ="div2">
+                <p class="login_text_reg">LOGIN <span> | <span class="register">REGISTER</span></span></p>
+            </div> 
+            <p class ="Text">Enter your email and password to register.</p>
+    
+            <form action="" method="post" name="REGISTER">
+                <div class="div_form">
+                        <input type="text" name="username" placeholder="Username" class="register_input">
+                </div>
+    
+                <div class="div_form">
+                    <input type="email" name="email" placeholder="Enter your email address" class="register_input">
+                </div>
+                <div class="div_form">
+                    <input type="password" name="password" placeholder="Password" class="register_input">
+                </div>
+                <div class="div_form">
+                    <input type="password" name="password" placeholder="Confirm your password"class="register_input">
+                </div>
+                <button type="submit" class="button_register">REGISTER</button> 
+            </form>
+            <p class="Text_or">Or register with</p>
+        <div class="Continue_block">
+            <a href="#" class="Continue_with_google">
+                <img src="images/Group.svg" alt="google">
+                Continue with Google    
+            </a>
+        </div>
+        <div class="Continue_block_f">
+            <a href="#" class="Continue_with_facebook">
+                <img src="images/facebook 1.svg" alt="Facebook">
+                Continue with Facebook
+            </a>
+        </div>
+        </div>
     </div>
 </body>
 </html>
