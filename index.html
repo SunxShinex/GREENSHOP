@@ -6,7 +6,18 @@
     <title>GREENSHOP</title>
     <link rel ="stylesheet" href ="css/style.css">
 </head>
+</head>
 <body>
+    <!-- Начало прелоадера -->
+    <div id="preloader">
+        <div class="loading-text">Loading...</div>
+    </div>
+    <script>
+        window.addEventListener('load', function () {
+            document.body.classList.add('loaded');
+        });
+    </script>
+    <!-- конец прелоадера -->
     <header>
         <div class="container">
             <a href="#" class="logo">
