@@ -1,0 +1,397 @@
+@import "style.css";
+
+
+@media only screen and (max-width: 440px){
+    header{
+        max-width: 440px;
+    }
+    nav{
+        display: none;
+    }
+    .PLants{
+        display: none;
+    }
+    header .login{
+
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    main .under_header{
+        margin-top: 12px;
+        padding-top: 68px;
+        padding-left: 10px;
+        margin-bottom: 44px;
+    }
+    .product .container{
+    display: block;
+    flex-direction: column;
+    }
+    .type_of_plants li, .categor{
+        display: block;
+        margin-bottom: 10px;
+        margin-left:150px;
+    }
+    main .type_of_plants{
+        margin-bottom:100px;
+    }
+    .product_sort{
+        flex-direction: column;
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+    .left_side img{
+        display: none;
+    }
+    .page_number{
+        float: none;
+        margin-left: 80px;
+        margin-top: 20px;
+     }
+    .Product_info{
+        margin:auto;
+    }
+    .container_section3{
+        flex-direction: column;
+    }
+    .intfo_case{
+        display: block;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .Summer_h4{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .text_abou_us{
+        text-align: left;
+        margin-left: 1px;  
+    }
+    .blog .blog_art{
+        flex-direction: column;
+        display: block;
+        margin-left: 80px;
+    }
+    .blog_text{
+        text-align: left;
+    }
+    .footer_container{
+        display: block;
+        flex-direction: column;
+    }
+    .footer_gredient{
+       max-width: 440px;
+    }
+    .footer_post{
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .newsletters{
+        margin-left: 20px;
+    }
+    .footer_gredient a img{
+        display: none;
+    }
+    .footer_geo:before{
+        display: none;
+    }
+    .footer_email:before{
+        display: none;
+    }
+    .footer_telephon:before{
+        display: none;
+    }
+    .footer_info{
+        display: block;
+        flex-direction: column;
+    }
+    .for_media{
+        margin-bottom: 20px;
+        margin-left: 110px;
+    }
+    .Social_accept{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 360px){
+    nav{
+        display: none;
+    }
+    .PLants{
+        display: none;
+    }
+    .login{
+        margin-right: 30px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    main .under_header{
+        margin-top: 12px;
+        padding-top: 68px;
+        padding-left: 0px;
+        margin-bottom: 44px;
+    }
+    .product .container{
+    display: block;
+    flex-direction: column;
+    }
+    .type_of_plants li, .categor{
+        display: block;
+        margin-bottom: 10px;
+        margin-left:100px;
+    }
+    main .type_of_plants{
+        margin-bottom:50px;
+    }
+    .product_sort{
+        flex-direction: column;
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 50px;
+    }
+    .left_side img{
+        display: none;
+    }
+    .page_number{
+       float: none;
+       margin-left: 40px;
+    }
+    .Product_info{
+        margin:auto;
+    }
+    .container_section3{
+        flex-direction: column;
+        display: block;
+    }
+    .intfo_case{
+        display: block;
+        text-align: left;
+    }
+    .Summer_h4{
+        text-align: left;
+    }
+    .text_abou_us{
+        text-align: left;
+        margin-left: 1px;
+    }
+    .blog_text{
+        text-align: left;
+    }
+    .blog .blog_art{
+        flex-direction: column;
+        display: block;
+        margin-left: 40px;
+    }
+    .blog_img_text{
+        margin: auto;
+    }
+    .footer_container{
+        display: block;
+        flex-direction: column;
+    }
+    .footer_post{
+        margin-bottom: 10px;
+        margin-left: 50px;
+    }
+    .newsletters{
+        margin-left: 10px;
+    }
+    .footer_gredient{
+        padding-left: 1px;
+    }
+    .footer_gredient a img{
+        display: none;
+    }
+    .footer_geo:before{
+        display: none;
+    }
+    .footer_email:before{
+        display: none;
+    }
+    .footer_telephon:before{
+        display: none;
+    }
+    .footer_info{
+        display: block;
+        flex-direction: column;
+    }
+    .for_media{
+        margin-bottom: 20px;
+        margin-left: 110px;
+    }
+    .Social_accept{
+        margin-left: 80px;
+    }
+}
+@media only screen and (max-width: 510px){
+    .footer_gredient a img{
+        display: none;
+    }
+    .footer_geo:before{
+        display: none;
+    }
+    .footer_email:before{
+        display: none;
+    }
+    .footer_telephon:before{
+        display: none;
+    }
+}
+@media only screen and (max-width: 540px){
+    nav{
+        display: none;
+    }
+    .PLants{
+        display: none;
+    }
+    .login{
+        margin-right: 15px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    .product .container{
+    display: block;
+    flex-direction: column;
+    }
+    .type_of_plants li, .categor{
+        display: block;
+        margin-bottom: 10px;
+        margin-left:150px;
+    }
+    main .type_of_plants{
+        margin-bottom:100px;
+    }
+    .product_sort{
+        flex-direction: column;
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+    .left_side img{
+        display: none;
+    }
+    .Product_info{
+        margin:auto;
+    }
+    .container_section3{
+        flex-direction: column;
+    }
+    .blog .blog_art{
+        flex-direction: column;
+        display: block;
+        margin: auto;
+    }
+    .blog_img_text{
+        margin: auto;
+    }
+    .footer_container{
+        display: block;
+        flex-direction: column;
+    }
+    .footer_post{
+        margin-bottom: 20px;
+        margin:auto;
+        text-align: center;
+    }
+    .newsletters{
+        margin:auto;
+    }
+    .footer_gredient a img{
+        display: none;
+    }
+
+    .footer_info{
+        display: block;
+        flex-direction: column;
+    }
+    .for_media{
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    .Social_accept{
+        margin:auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    nav{
+        display: none;
+    }
+    .PLants{
+        display: none;
+    }
+    .login{
+        margin-right: 15px;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    .product .container{
+    display: block;
+    flex-direction: column;
+    }
+    .left_side{
+        margin: auto;
+    }
+    .type_of_plants li, .categor{
+        display: block;
+        margin-bottom: 10px;
+        margin-left:150px;
+    }
+    main .type_of_plants{
+        margin-bottom:100px;
+    }
+    .product_sort{
+        flex-direction: column;
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 100px;
+    }
+    .left_side img{
+        display: none;
+    }
+    .Product_info{
+        margin:auto;
+    }
+    .container_section3{
+        flex-direction: column;
+    }
+    .blog .blog_art{
+        flex-direction: column;
+        display: block;
+        margin-left: 40px;
+    }
+    .blog_img_text{
+        margin: auto;
+    }
+
+    .footer_container{
+        display: block;
+        flex-direction: column;
+    }
+    .footer_post{
+        margin-bottom: 20px;
+        margin:auto;
+        text-align: center;
+    }
+    .newsletters{
+        margin:auto;
+    }
+    .footer_gredient a img{
+        display: none;
+    }
+
+    .footer_info{
+        display: block;
+        flex-direction: column;
+    }
+    .for_media{
+        margin-bottom: 20px;
+        margin: auto;
+    }
+    .Social_accept{
+        margin:auto;
+    }
+}
