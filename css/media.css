@@ -20,11 +20,11 @@
         padding-left: 0;
     }
     .left_side{
-        width: 100%;
+        max-width: 100%;
         margin-bottom: -70px;
     }
     .product .left_side{
-        width: 100%;
+        max-width: 100%;
     }
     .product_sort{
         width: 100%;
@@ -43,9 +43,12 @@
     flex-direction: column;
     }
     .type_of_plants li, .categor{
-        display: block;
+        display: flex;
         margin-bottom: 10px;
-        margin-left:150px;
+        justify-content: center;
+    }
+    main .left_side ul li a{
+        margin: 0;
     }
     .product .product_sort ul{
         width: 100%;
@@ -59,12 +62,12 @@
     }
     .page_number{
         float: none;
-        margin-left: 80px;
-        margin-top: 20px;
+       justify-content: center;
      }
     .Product_info{
         margin:auto;
         text-align: center;
+        margin-bottom: 40px;
     }
     .container_section3{
         flex-direction: column;
@@ -127,16 +130,168 @@
     .footer_info{
         flex-direction: column;
         max-width: 100%;
-    }
-    .for_media{
         text-align: center;
     }
+    .for_media p{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .for_media ul{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+    }
     .Social_accept{
-        gap: 20px;
         text-align: center;
     }
     .Social_accept ul{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 360px){
+    .type_of_plants li, .categor{
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    .footer_gredient{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 768px){
+    nav{
+        display: none;
+    }
+    .PLants{
+        display: none;
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    main section .article_text{
+        max-width: 100%;
+        text-align: center;
+    }
+    .left_side{
+        max-width: 100%;
+        margin-bottom: -70px;
+    }
+    .product .left_side{
+        max-width: 100%;
+    }
+    .product_sort{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .product .product_sort{
+        display: block;
+    }  
+    .right_side{
+        max-width: 440px;
+        text-align: center;
+    }
+    .product .container{
+    display: block;
+    flex-direction: column;
+    }
+    .type_of_plants li, .categor{
+        display: flex;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+    main .left_side ul li a{
+        margin: 0;
+    }
+    .product .product_sort ul{
+        width: 100%;
+        display: block;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+    .left_side img{
+        display: none;
+    }
+    .page_number{
+        float: none;
+       justify-content: center;
+     }
+    .Product_info{
+        margin:auto;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .container_section3{
+        flex-direction: column;
+    }
+    .intfo_case{
+        text-align: center;
+        max-width: 100%;
+    }
+    .Summer_h4{
+        text-align: center;
+        width: 100%;
+    }
+    .blog_img_text{
+        max-width: 100%;
+        text-align: center;
+    }
+    .text_abou_us{
+        text-align: center;
+    }
+    .blog .blog_art{
+        display: block;
+    }
+    .blog_img_text{
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer_container{
+        display: block;
+        flex-direction: column;
+    }
+    .footer_post{
+        width: 100%;
+       text-align: center;
+       margin-bottom: 40px;
+    }
+    .newsletters{
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer_gredient{
+        width: 100%;
         gap: 20px;
-        justify-content: space-between;
+     }
+
+    .footer_gredient a img{
+        display: none;
+    }
+    .footer_info{
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+    }
+    .for_media p{
+        padding: 0;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .for_media ul{
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .Social_accept{
+        text-align: center;
+    }
+    .Social_accept ul{
+        justify-content: center;
     }
 }
