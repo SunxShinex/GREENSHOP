@@ -998,10 +998,6 @@ main{
             transition: 0.5s;
         }
     }
-}
-.footer_end{
-    max-width: 1200px;
-    margin: auto;
     .footer_my_account{
         li{
             a{
@@ -1013,12 +1009,9 @@ main{
         }
     }
 }
-
-/*КОНЕЦ ФУТЕРА*/
-
-
-.register_block{
-    margin-top: 100px;
+.footer_end{
+    max-width: 1200px;
+    margin: auto;
     .Greenshop{
         font-family: 'cera_prolight';
     font-weight: 400;
@@ -1028,6 +1021,13 @@ main{
     text-align: center;
     margin-bottom: 13px;
     }
+}
+
+/*КОНЕЦ ФУТЕРА*/
+
+
+.register_block{
+    margin-top: 100px;
 }
 
 .login_text_reg{
