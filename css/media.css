@@ -155,6 +155,9 @@
         margin-bottom: 10px;
         justify-content: center;
     }
+    main .left_side ul li a{
+        margin: 0;
+    }
     .footer_gredient{
         flex-direction: column;
         align-items: center;
