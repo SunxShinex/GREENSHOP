@@ -11,6 +11,9 @@
     .PLants{
         display: none;
     }
+    main .container .owl-carousel .owl-item img{
+        display: none;
+    }
     .logo{
         margin-left: 15px;
     }
@@ -19,12 +22,21 @@
         text-align: center;
         padding-left: 0;
     }
-    .left_side{
-        max-width: 100%;
-        margin-bottom: -70px;
+    .owl-carousel{
+        display: none;
     }
-    .product .left_side{
+    main .product .left_side{
         max-width: 100%;
+        gap: 100px;
+    }
+    main .product .left_side ul li{
+        justify-content: space-around;
+    }
+    main .product .product_sort{
+        flex-direction: column;
+    }
+    main .product .right_side .type_of_product{
+        flex-direction: column;
     }
     .product_sort{
         width: 100%;
@@ -56,13 +68,12 @@
         margin-bottom: 0;
         text-align: center;
     }
-    
     .left_side img{
         display: none;
     }
-    .page_number{
+    main .page_number{
         float: none;
-       justify-content: center;
+        justify-content: center;
      }
     .Product_info{
         margin:auto;
@@ -72,12 +83,12 @@
     .container_section3{
         flex-direction: column;
     }
-    .intfo_case{
+    main .container_section3 .intfo_case{
         display: block;
         text-align: center;
         width: 100%;
     }
-    .Summer_h4{
+    main .container_section3 .intfo_case .Summer_h4{
         text-align: center;
         width: 100%;
     }
@@ -85,13 +96,14 @@
         width: 100%;
         text-align: center;
     }
-    .text_abou_us{
+    main .container_section3 .intfo_case .text_abou_us{
         text-align: center;
     }
-    .blog .blog_art{
+    main .blog .container_section4 .blog_art{
         display: block;
+        margin: auto;
     }
-    .blog_img_text{
+    main .blog .container_section4 .blog_art .blog_img_text{
         text-align: center;
         width: 100%;
         max-width: 100%;
@@ -101,7 +113,7 @@
         display: block;
         flex-direction: column;
     }
-    .footer_post{
+    .footer_container .footer_post{
         width: 100%;
        text-align: center;
        margin-bottom: 40px;
@@ -118,13 +130,13 @@
     .footer_gredient a img{
         display: none;
     }
-    .footer_geo:before{
+    .footer_gredient .footer_geo:before{
         display: none;
     }
-    .footer_email:before{
+    .footer_gredient .footer_email:before{
         display: none;
     }
-    .footer_telephon:before{
+    .footer_gredient .footer_telephon:before{
         display: none;
     }
     .footer_info{
@@ -132,18 +144,18 @@
         max-width: 100%;
         text-align: center;
     }
-    .for_media p{
+    .footer_info .for_media p{
         padding: 0;
         margin: 0;
         margin-bottom: 10px;
     }
-    .for_media ul{
+    .footer_info .for_media ul{
         justify-content: center;
         padding: 0;
         margin: 0;
         margin-bottom: 40px;
     }
-    .Social_accept{
+    .footer_info .Social_accept{
         text-align: center;
     }
     .Social_accept ul{
@@ -170,6 +182,12 @@
     .PLants{
         display: none;
     }
+    main .container .owl-carousel .owl-item img{
+        display: none;
+    }
+    main .container .article_text {
+        max-width: 100%;
+    }
     .logo{
         margin-left: 15px;
     }
@@ -183,6 +201,19 @@
     }
     .product .left_side{
         max-width: 100%;
+    }
+    main .product .left_side{
+        max-width: 100%;
+        justify-content: space-around;
+    }
+    main .product .left_side ul li{
+        justify-content: space-around;
+    }
+    main .product .product_sort{
+        flex-direction: column;
+    }
+    main .product .right_side .type_of_product{
+        flex-direction: column;
     }
     .product_sort{
         width: 100%;
@@ -218,9 +249,9 @@
     .left_side img{
         display: none;
     }
-    .page_number{
+    main .page_number{
         float: none;
-       justify-content: center;
+        justify-content: center;
      }
     .Product_info{
         margin:auto;
@@ -230,25 +261,27 @@
     .container_section3{
         flex-direction: column;
     }
-    .intfo_case{
+    main .container_section3 .intfo_case{
+        display: block;
         text-align: center;
         max-width: 100%;
     }
-    .Summer_h4{
+    main .container_section3 .intfo_case .Summer_h4{
         text-align: center;
         width: 100%;
     }
     .blog_img_text{
-        max-width: 100%;
+        width: 100%;
         text-align: center;
     }
-    .text_abou_us{
+    main .container_section3 .intfo_case .text_abou_us{
         text-align: center;
     }
-    .blog .blog_art{
+    main .blog .container_section4 .blog_art{
         display: block;
+        margin: auto;
     }
-    .blog_img_text{
+    main .blog .container_section4 .blog_art .blog_img_text{
         text-align: center;
         width: 100%;
         max-width: 100%;
@@ -258,12 +291,12 @@
         display: block;
         flex-direction: column;
     }
-    .footer_post{
+    .footer_container .footer_post{
         width: 100%;
        text-align: center;
        margin-bottom: 40px;
     }
-    .newsletters{
+    .footer_container .newsletters{
         max-width: 100%;
         text-align: center;
     }
@@ -280,12 +313,17 @@
         max-width: 100%;
         text-align: center;
     }
-    .for_media p{
+    .footer_info{
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer_info .for_media p{
         padding: 0;
         margin: 0;
         margin-bottom: 10px;
     }
-    .for_media ul{
+    .footer_info .for_media ul{
         justify-content: center;
         padding: 0;
         margin: 0;

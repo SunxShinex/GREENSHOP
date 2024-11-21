@@ -203,7 +203,6 @@ main .container {
   max-width: 1200px;
   margin: auto;
   display: flex;
-  align-items: center;
 }
 main .container .owl-carousel .owl-item img {
   width: 518px;
@@ -295,6 +294,27 @@ main .product .left_side .type_of_plants {
   list-style-type: none;
   margin-bottom: 170px;
 }
+main .product .left_side ul span {
+  font-family: "cera_prolight";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 267%;
+  color: #5f5e5e;
+  transition: 0.6s;
+}
+main .product .left_side ul li {
+  justify-content: space-between;
+  display: flex;
+  transition: 0.6s;
+}
+main .product .left_side ul li:hover span {
+  color: #46a358;
+  transform: scale(1.2);
+}
+main .product .left_side ul li:hover a {
+  color: #46a358;
+  transform: scale(1.2);
+}
 main .product .left_side ul li a {
   font-family: "cera_prolight";
   font-weight: 700;
@@ -304,10 +324,6 @@ main .product .left_side ul li a {
   text-decoration: none;
   transition: 0.6s;
   margin-left: 30px;
-}
-main .product .left_side ul li a:hover {
-  color: #46a358;
-  transform: scale(1.2);
 }
 main .product .right_side {
   max-width: 840px;
