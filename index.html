@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green Shop</title>
-    
+    <link rel="icon" href="images/icon-greenshop.png" type="image/png">
     
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
@@ -15,7 +15,6 @@
     <link rel ="stylesheet" href ="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head> 
-</head>
 <body>
     <!-- Начало прелоадера -->
     <div id="preloader">
@@ -82,7 +81,19 @@
                     </li>
                 </ul>
             </nav>
+            <div class="login-and-seacrh">
+            <ul class="dop-menu">
+                <li>
+                    <a href="#" class="search"></a>
+                </li>
+                <li class="basket-absolut">
+                    <a href="#" class="basket">
+                        <span class="number-in-basket">6</span>
+                    </a>
+                </li>
+            </ul>
             <a href="register.html" class="login">Login</a>
+        </div>
         </div>
     </header>
 <main>
@@ -176,6 +187,50 @@
                         <span>(18)</span>
                     </li>
                 </ul>
+                <!--Виджет-->
+                <div class="wrapper">
+                    <header>
+                      <h2>Price Range</h2>
+                    </header>
+                    <div class="slider">
+                        <div class="progress"></div>
+                      </div>
+                      <div class="range-input">
+                        <input type="range" class="range-min" min="0" max="1500" value="39" step="1">
+                        <input type="range" class="range-max" min="0" max="1500" value="1500" step="1">
+                      </div>
+                    </div>
+                    <div class="price-input">
+                      <div class="field">
+                        <span>Price:</span>
+                        <span class="green-price">$</span>
+                        <input type="number" class="input-min" value="39">
+                      </div>
+                      <div class="separator">-</div>
+                      <div class="field">
+                        <span class="green-price2">$</span>
+                        <input type="number" class="input-max" value="1500">
+                      </div>
+                    </div>
+                    <button class="filter">Filter</button>
+                  <!--Конец Виджета-->
+                <div class="Size-of-product">
+                    <p class="Size-text">Size</p>
+                  <ul>
+                    <li>
+                        <a href="#">Small</a>
+                        <span>(119)</span>
+                    </li>
+                    <li>
+                        <a href="#"> Medium</a>
+                        <span>(86)</span>
+                    </li>
+                    <li>
+                        <a href="#"> Large</a>
+                        <span>(78)</span>
+                    </li>
+                  </ul>
+                </div>
                 <a href="#">
                 <img src="images/Super_Sale.svg" alt="Plants2">
                 </a>
@@ -373,6 +428,9 @@
                     </li>
                     <li>
                         <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#" class="next-page"></a>
                     </li>
                 </ul>
             </div>
